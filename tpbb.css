@@ -1,0 +1,237 @@
+/* bebas-neue-regular - latin */
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("police/bebas-neue-v2-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("police/bebas-neue-v2-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("police/bebas-neue-v2-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("police/bebas-neue-v2-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("police/bebas-neue-v2-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("police/bebas-neue-v2-latin-regular.svg#BebasNeue") format("svg"); /* Legacy iOS */
+}
+/* ubuntu-300 - latin */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  src: url("police/ubuntu-v15-latin-300.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("police/ubuntu-v15-latin-300.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("police/ubuntu-v15-latin-300.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("police/ubuntu-v15-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */ url("police/ubuntu-v15-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("police/ubuntu-v15-latin-300.svg#Ubuntu")
+      format("svg"); /* Legacy iOS */
+}
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  src: url("police/ubuntu-v15-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("police/ubuntu-v15-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("police/ubuntu-v15-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("police/ubuntu-v15-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("police/ubuntu-v15-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("police/ubuntu-v15-latin-regular.svg#Ubuntu")
+      format("svg"); /* Legacy iOS */
+}
+/* ubuntu-500 - latin */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  src: url("police/ubuntu-v15-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("police/ubuntu-v15-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("police/ubuntu-v15-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("police/ubuntu-v15-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("police/ubuntu-v15-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("police/ubuntu-v15-latin-500.svg#Ubuntu")
+      format("svg"); /* Legacy iOS */
+}
+/* ubuntu-700 - latin */
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  src: url("police/ubuntu-v15-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("police/ubuntu-v15-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("police/ubuntu-v15-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("police/ubuntu-v15-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("police/ubuntu-v15-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("police/ubuntu-v15-latin-700.svg#Ubuntu")
+      format("svg"); /* Legacy iOS */
+}
+
+body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  margin: 30px auto;
+  width: 70%;
+  border: 4px dotted gray;
+}
+
+.containertwo{
+  margin: 30px auto;
+  width: 70%;
+  height: 50px;
+  border: 4px dotted gray;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #686a6a;
+  letter-spacing: 5px;
+  font-size: 100px;
+  text-decoration: underline;
+  font-family: "Bebas Neue";
+  color: white;
+  text-align: center;
+  line-height: 150px;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #686a6a;
+}
+
+.section-one {
+  background-color: #f3f3f3;
+  line-height: 30px;
+}
+
+.section-two {
+  background-color: #fff;
+}
+
+.section-three{
+  background-color: #76cdcd;
+}
+
+.article {
+  font-size: 24px;
+  font-family: "Ubuntu";
+  color: grey;
+  text-align: center;
+  font-style: normal;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+strong {
+  color: #444444;
+}
+
+
+h2 {
+  font-family: "Bebas Neue";
+  font-size: 60px;
+  color: #444444;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  color: white;    
+  text-align: center;
+}
+
+
+.ulfont{
+  font-size: 30px;
+  font-family: Ubuntu;
+  color: #444444;
+  text-align: left;
+  list-style-image: url("../TP1\ code/check.png");
+  padding-left: 250px;
+  padding-right: 200px;
+  line-height: 50px;
+}
+
+.olfont {
+  font-size: 30px;
+  font-family: Ubuntu;
+  color: white;
+  text-align: left;
+  padding-left: 250px;
+  padding-right: 250px;
+  line-height: normal;
+}
+
+.olfont li{
+  margin-bottom: 20px;
+}
+
+.olfont > li{
+  margin-bottom: 20px;
+}
+
+footer{
+  font-size: 15px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-family: Ubuntu;
+}
+
+span {
+  color: green;
+
+
+
+
+
+
+/* STRUCTURE GENERALE */
+/*
+On change la methode de calcul de boite: 
+- par defaut (box-sizing: content-box;) la width represente le content, et a ce content viennent s'ajouter les valeurs de padding et de border
+
+- grace au selecteur universel (*) je peux changer ce mode de calcul pour tous les éléments html
+
+- en appliquant au box-sizing la valeur border-box : la width représentera le cumul des border, padding et content
+*/
+
+#calcul{
+  border: 1px solid red;
+  width: 500px;
+  padding: 20px;
+
+
+
